@@ -1,0 +1,1 @@
+# docker-mfbaseplugins-centos7-buildimage
