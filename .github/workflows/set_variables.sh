@@ -4,7 +4,7 @@
 
 
 
-set -x
+set -eu
 
 if test "centos7" = ""; then
     echo "ERROR: OS env is empty"
