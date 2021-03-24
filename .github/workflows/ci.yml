@@ -14,7 +14,11 @@ on:
       - experimental*
       - release_*
   repository_dispatch:
-    types: metwork-trigger*
+    types:
+      - metwork-trigger
+      - metwork-trigger-integration
+      - metwork-trigger-master
+      - metwork-trigger-release_1.0
 
 env:
     WORKFLOW_SCRIPTS_DIR: .github/workflows
